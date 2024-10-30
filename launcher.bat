@@ -30,6 +30,7 @@ set /p choice= Version:
 if %choice%==1 goto:ver1
 if %choice%==2 goto:ver2
 if %choice%==3 goto:ver3
+:: Example: if %choice%==Key goto:
 if %choice%==- goto:EXIT
 if %choice%==/ goto:updates
 
