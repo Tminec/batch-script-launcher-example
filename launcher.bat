@@ -1,7 +1,12 @@
+:: Created by AnakamaTheHedgehog
+
 @echo off
 color 3F
 echo Please wait...
 title My Program Launcher
+
+:: Go into the file path and start via powershell
+
 (NET FILE||(powershell start-process -FilePath '%0' -verb runas)&&(exit /B)) >NUL 2>&1
 (NET FILE||(exit)) >NUL 2>&1
 
