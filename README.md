@@ -4,7 +4,9 @@
 
 # How to use
 
-- Copy the code in **launcher.bat** and paste it to your batch file.
+- Create a new folder for your launcher.
+- Download the **source code** from the releases and put the **.bat** file into the folder.
+- Create a folder named **"data"** and put your versions there.
 - Customize the batch script at you want and use it for your game!
 
 # Need help?
