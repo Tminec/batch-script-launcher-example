@@ -13,4 +13,4 @@
 
 - If you need help, all you need to do is create an issue from the issues section, I will respond as fast as I can!
 
-  ## Have fun :D
+  ### Happy coding!
