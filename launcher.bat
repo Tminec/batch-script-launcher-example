@@ -46,7 +46,6 @@ title My Program Launcher
 	start MyProgramV1.exe
 	exit
 
-
 	:ver2
 	cd data
 	start MyProgramV2.exe
@@ -56,5 +55,9 @@ title My Program Launcher
 	cd data	
 	start MyProgramV3.exe
 	exit
+
+:Updates
+start myprogramsite.domain
+goto :menu
 
 :Exit
